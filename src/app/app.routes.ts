@@ -1,10 +1,12 @@
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './roles/auth/home/home.component';
 import { NgModule } from '@angular/core';
+import { SignupComponent } from './roles/auth/home/signup/signup.component';
 import { AdminComponent } from './roles/admin/admin.component';
 
 export const routes: Routes = [
     { path: '',component:HomeComponent},
+    { path:'signup', component:SignupComponent},
     {path:'admin',component:AdminComponent}
 ];
 
