@@ -4,7 +4,7 @@ export const EMPLOYEE_ROUTES: Routes = [
     {
         path: 'dashboard',
         loadComponent: () => import('./dashboardemployee/dashboardemployee.component')
-            .then(m => m.DashboardComponent), // Changed from EmployeeDashboardComponent
+            .then(m => m.DashboardemployeeComponent), // Changed from EmployeeDashboardComponent
         canActivate: [employeeGuard]
     },
     { path: '', redirectTo: 'dashboard', pathMatch: 'full' }
