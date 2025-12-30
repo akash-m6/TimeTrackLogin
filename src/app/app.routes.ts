@@ -18,9 +18,9 @@ export const routes: Routes = [
   { path: '', redirectTo: 'signin', pathMatch: 'full' }
 ];
 
-@NgModule({
-    imports: [RouterModule.forRoot(routes)],
-    exports: [RouterModule]
-})
+// @NgModule({
+//     imports: [RouterModule.forRoot(routes)],
+//     exports: [RouterModule]
+// })
 
-export class AppRoutingModule{}
+// export class AppRoutingModule{}
